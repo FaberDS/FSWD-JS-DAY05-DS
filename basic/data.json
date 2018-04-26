@@ -1,0 +1,9 @@
+var sandwiches = [{ 
+		"sandwich": "hamburger", 
+		"calories": "260"
+	},
+	{ 	
+		"sandwich": "wrap",
+		"calories": "150"
+	}
+];
