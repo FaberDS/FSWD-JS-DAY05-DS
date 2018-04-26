@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		table {
+			text-align: center;
+		}
+		body {
+		width: 70%;
+		margin: 0 auto  ;
+		}
+	</style>
+    <title></title>
+</head>
+<body>
+	<div>
+    <h1 style=" color: blue; text-align: center;">Table of the Employees</h1>
+    <script type="text/javascript" src="data.json"></script>
+    <script>
+    	document.write("<table border = 1px> <tr><th> ID </th><th> First name </th><th> Last name</th><th>Email adress</th><th> Profession </th><th> Salary </th> "  );
+
+    for (var i = 0; i < json.length; i++) {
+        var obj = json[i];
+        document.write( "<tr><td>" + obj.ID + " </td> " + "<td>" + obj.firstName + " </td> " + "<td>" +  obj.lastName + " </td> " + "<td>" + obj.emailAddress + " </td> " + "<td>" + obj.jobTitleName + " </td> " + "<td>" + obj.salary + " ERO </td></tr>"  ); 
+    } document.write("</table>")
+    </script>
+    </div>
+    
+</body>
+</html>

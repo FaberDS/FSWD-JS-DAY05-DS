@@ -1,0 +1,44 @@
+var json = [{
+    "ID": "0000000001",
+    "jobTitleName": "Developer",
+    "firstName": "Patrik",
+    "lastName": "Jonathan",
+    "emailAddress": "patrik.k.jonathan@gmail.com",
+    "salary": "2500",
+}, {
+    "ID": "0000000002",
+    "jobTitleName": "Analyst",
+    "firstName": "Tom",
+    "lastName": "Irani",
+    "emailAddress": "tomrirani@gmail.com",
+    "salary": "1800",
+}, {
+    "ID": "0000000003",
+    "jobTitleName": "Program Directory",
+    "firstName": "Tom",
+    "lastName": "Hanks",
+    "emailAddress": "tomhanks@gmail.com",
+    "salary": "1400",
+}, {
+    "ID": "0000000004",
+    "jobTitleName": "Program Directory",
+    "firstName": "Ali",
+    "lastName": "Omar",
+    "emailAddress": "ali.omar@gmail.com",
+    "salary": "1400",
+}, {
+    "ID": "0000000005",
+    "jobTitleName": "doctor",
+    "firstName": "Omar",
+    "lastName": "Ali",
+    "emailAddress": "omar.ali@gmail.com",
+    "salary": "2400",
+}, {
+    "ID": "0000000006",
+    "jobTitleName": "FB manager",
+    "firstName": "Mark",
+    "lastName": "Zukerburg",
+    "emailAddress": "i.am.smart@gmail.com",
+    "salary": "250",
+}
+];
